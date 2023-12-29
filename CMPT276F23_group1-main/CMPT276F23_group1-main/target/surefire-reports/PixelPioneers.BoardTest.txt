@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: PixelPioneers.BoardTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.047 s <<< FAILURE! - in PixelPioneers.BoardTest
+testMazeParsingForEndTile(PixelPioneers.BoardTest)  Time elapsed: 0.006 s  <<< FAILURE!
+java.lang.AssertionError: End tile should be set expected:<1> but was:<0>
+	at PixelPioneers.BoardTest.testMazeParsingForEndTile(BoardTest.java:58)
+
+testWallProperties(PixelPioneers.BoardTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: Top wall should not be set expected:<0> but was:<1>
+	at PixelPioneers.BoardTest.testWallProperties(BoardTest.java:67)
+

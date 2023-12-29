@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: PixelPioneers.ModelTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.833 s <<< FAILURE! - in PixelPioneers.ModelTest
+testWinningGame(PixelPioneers.ModelTest)  Time elapsed: 0.017 s  <<< FAILURE!
+java.lang.AssertionError: Game should be won after collecting all pellets and reaching end tile
+	at PixelPioneers.ModelTest.testWinningGame(ModelTest.java:78)
+
